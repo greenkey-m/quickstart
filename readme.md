@@ -9,6 +9,19 @@
 
 ## About Laravel
 
+1) стена с фотографияим, при наведении - минимум информации
+2) мультиязычный, с определением страны, откуда заход
+3) сбоку - узкая панель сайдбар с иконками, там же - язык
+4) при выборе страны/языка - использовать карту стран или список
+5) авторизация с помощью openid (google, fb, vk etc)
+6) добавить учителя может только авторизованный юзер
+7) каждый день можно ставить оценку учителю (анонимно? не анонимно?) 1-5 (или 1-100)
+8) можно добавлять/убавлять карму (--3 до ++3), это можно менять
+9) анонимное голосование - без авторизации, можно просто поставить +/-, сохраняется для сессии
+----
+определение лучших учитель - чего добились ученики
+отметки кармы - кто сильнее повлиял на ученика
+
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).

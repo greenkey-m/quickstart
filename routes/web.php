@@ -14,3 +14,17 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/wall', function () {
+    $tasks = [
+        'line 1',
+        'line 2',
+        'line 3'
+    ];
+
+    return view('wall', [
+        'tasks' => $tasks,
+        'name' => request('name'),
+        'scripting' => '<script> alert(\'Dangerous!\'); </script>'
+    ]);
+});
